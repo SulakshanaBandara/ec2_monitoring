@@ -23,5 +23,5 @@
   },
   "log_file": "ec2_monitor.log",
   "metrics": "ec2_stats.json",
-  "error_topic_arn": "arn:aws:sns:us-east-1:123456789012:ErrorNotifications"
+  "error_topic_arn": "arn:aws:sns:REGION:YOUR_AWS_ACCOUNT_ID:ErrorNotifications"
 }
