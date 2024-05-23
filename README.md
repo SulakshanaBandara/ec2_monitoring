@@ -14,7 +14,7 @@ This repository contains a solution for monitoring AWS EC2 instances. The soluti
 - Launch three EC2 instances.
 - Update the `config.json` file with the appropriate values for your environment. 
 - The file includes instance IDs, thresholds for metrics, SNS topic name, and email for notifications.
-- Update with the Instance IDs and the email.
+- Update with the **Instance IDs** and the **email**, **YOUR_AWS_ACCOUNT_ID** and **REGION**.
 
 ### Setup Instructions
 
