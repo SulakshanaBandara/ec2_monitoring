@@ -4,7 +4,7 @@
     "instance ii",
     "instance iii"
   ],
-  "email": "email",
+  "email": "email@email.com",
   "sns_topic_name": "EC2Alerts",
   "region": "us-east-1",
   "stats": [
@@ -21,13 +21,7 @@
     "DiskReadOps": {"amber": 60, "red": 80},
     "DiskWriteOps": {"amber": 60, "red": 80}
   },
-  "logging": {
-    "level": "DEBUG",
-    "file": "ec2_monitor.log",
-    "format": "%(asctime)s %(levelname)s %(message)s"
-  },
-  "metrics": {
-    "data_file": "ec2_stats.json"
-  },
+  "log_file": "ec2_monitor.log",
+  "metrics": "ec2_stats.json",
   "error_topic_arn": "arn:aws:sns:us-east-1:123456789012:ErrorNotifications"
 }

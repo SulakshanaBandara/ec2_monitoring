@@ -133,7 +133,7 @@ def record_metrics():
     logging.debug(f"Metrics data recorded: {metrics_data}")
 
     try:
-        with open(config['data_file'], 'a') as f:
+        with open(config['metrics'], 'a') as f:  # Changed to config['metrics']
             json.dump(metrics_data, f)
             f.write('\n')
     except IOError as e:
